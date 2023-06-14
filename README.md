@@ -1,2 +1,46 @@
-# C-programme-
-Syntaxes
+//C progmming all syntaxes//
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+	int i,j,rows,columns,a[10][10],+[10][10] 
+clrscr();
+printf(“Enter rows and columns);
+scanf(“% d % d”,rows,columns);
+for (i = 0;i < rows,i++)
+	{
+		for (j = 0;j < columns;j++)
+		{
+			printf(“Enter a[% d][% d] =\n”,i + 1,j + 1);
+			sacnf(“% d”,&a[i][j]);
+		}
+	}
+	printf(“ matrix before transpose operation \n”);
+	for (“i = 0;i < rows;i++)
+	{
+		for (j = 0;j < columns;j++)
+		{
+			printf(“% d \t”,a[i][j]);
+		}
+		printf(“\n”);
+	}
+	for (i = 0;i < rows;i++)
+	{
+		for (j = 0;j < columns;j++)
+		{
+			t[j][i] = a[i][j];
+		}
+	}
+	printf(“Matrix after transpose operation
+		   :\n”);
+	{
+		for (i = 0;i < rows;i++)
+		{
+			for (j = 0;j < columns;j++)
+			{
+				printf(“% d \t”,t[i][j]);
+			}
+			printf(“\n”);
+		}
+		return0;
+	}
