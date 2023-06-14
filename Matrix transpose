@@ -1,4 +1,4 @@
-//C progmming all syntaxes//
+//C-programming all syntaxes//
 #include <stdio.h>
 #include <conio.h>
 int main()
